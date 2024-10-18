@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Editkaro.in</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero1-content">
+            <h1>Your One-Stop Social Media & Video Editing Solution</h1>
+            <p>Discover our creative portfolio below</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Editkaro.in</h2>
+        <p>We specialize in social media marketing and video editing services, offering a wide range of video styles such as short-form, long-form, gaming edits, football highlights, ads, and much more.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Our Work</h2>
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button data-category="all">All</button>
+            <button data-category="short-form">Short-Form Videos</button>
+            <button data-category="long-form">Long-Form Videos</button>
+            <button data-category="gaming">Gaming Videos</button>
+            <button data-category="football">Football Edits</button>
+            <button data-category="ecommerce">eCommerce Ads</button>
+            <button data-category="documentary">Documentary Style</button>
+            <button data-category="anime">Anime Videos</button>
+            <button data-category="ads">Ads</button>
+        </div>
+
+        <!-- Video Grid -->
+        <div class="video-grid">
+            <!-- Video card template -->
+            <div class="video-card" data-category="short-form">
+                <iframe width="320" height="140" src="https://www.youtube.com/embed/R9Uu0JtvyMg?si=8OH81KHrQ5dJRUOm&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>Short-Form Video</h3>
+            </div>
+            <div class="video-card" data-category="gaming">
+                <iframe width="320" height="140" src="https://www.youtube.com/embed/ubj4qsvxRo0?si=ETUD_wuttx8vJfrv&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>Gaming Video</h3>
+            </div>
+            <div class="video-card" data-category="anime">
+                <iframe width="320" height="140" src="https://www.youtube.com/embed/O7g240tOl2k?si=yiv1l2dEm5NzNDqN&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>               
+                <h3>Amine Video</h3>
+            </div>
+            <div class="video-card" data-category="football">
+                <iframe width="320" height="140" src="https://www.youtube.com/embed/nMzxg7Gomts?si=KeqsKB7SMlAnoM45&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+                <h3>Football Edits</h3>
+            </div>
+            <div class="video-card" data-category="ecommerce" >
+                <iframe width="320" height="140" src="https://www.youtube.com/embed/wf4F2-9UXUo?si=WOJ04yaH8zpl2RHu&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+                <h3>eCommerce Ads</h3>
+            </div>
+            <div class="video-card" data-category="gaming">
+                <iframe width="320" height="140" src="https://www.youtube.com/embed/XltkA6uiu9w?si=NfQlGF0CE3IDiEEy&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+                <h3>Gaming Video</h3>
+            </div>
+            <!-- Add more video cards as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
